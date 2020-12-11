@@ -22,7 +22,10 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="578f78d9-949c-4b6c-ae0e-f7f1d29feb43" name="Default Changelist" comment="" />
+    <list default="true" id="578f78d9-949c-4b6c-ae0e-f7f1d29feb43" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/easy-notes.iml" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -60,7 +63,7 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.0" />
     <property name="restartRequiresConfirmation" value="false" />
@@ -97,8 +100,55 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration default="true" type="JetRunConfigurationType">
+      <module name="anoringa-backend-java" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <module name="anoringa-backend-java" />
+      <option name="filePath" />
+      <option name="vmParameters" />
+      <option name="alternativeJrePath" />
+      <option name="programParameters" />
+      <option name="passParentEnvs" value="true" />
+      <option name="workingDirectory" />
+      <option name="isAlternativeJrePathEnabled" value="false" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="filePath" />
+      <option name="vmParameters" />
+      <option name="alternativeJrePath" />
+      <option name="programParameters" />
+      <option name="passParentEnvs" value="true" />
+      <option name="workingDirectory" />
+      <option name="isAlternativeJrePathEnabled" value="false" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="AnoringaApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <module name="easy-notes" />
+      <module name="anoringa-backend-java" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.pelucasistemas.anoringa.*" />
@@ -111,7 +161,7 @@
       </method>
     </configuration>
     <configuration name="EasyNotesApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
-      <module name="easy-notes" />
+      <module name="anoringa-backend-java" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.easynotes.EasyNotesApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -135,7 +185,7 @@
       <workItem from="1607090933514" duration="13543000" />
       <workItem from="1607106495421" duration="20430000" />
       <workItem from="1607721748719" duration="2623000" />
-      <workItem from="1607725284905" duration="2212000" />
+      <workItem from="1607725284905" duration="2897000" />
     </task>
     <servers />
   </component>
@@ -187,46 +237,46 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1607722803468" />
-    <state width="1877" height="264" key="GridCell.Tab.0.bottom" timestamp="1607727447273">
+    <state width="1877" height="264" key="GridCell.Tab.0.bottom" timestamp="1607728182741">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="264" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1607727447273" />
-    <state width="1877" height="264" key="GridCell.Tab.0.center" timestamp="1607727447273">
+    <state width="1877" height="264" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1607728182741" />
+    <state width="1877" height="264" key="GridCell.Tab.0.center" timestamp="1607728182741">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="264" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1607727447273" />
-    <state width="1877" height="264" key="GridCell.Tab.0.left" timestamp="1607727447273">
+    <state width="1877" height="264" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1607728182741" />
+    <state width="1877" height="264" key="GridCell.Tab.0.left" timestamp="1607728182741">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="264" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1607727447273" />
-    <state width="1877" height="264" key="GridCell.Tab.0.right" timestamp="1607727447273">
+    <state width="1877" height="264" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1607728182741" />
+    <state width="1877" height="264" key="GridCell.Tab.0.right" timestamp="1607728182741">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="264" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1607727447273" />
-    <state width="1877" height="264" key="GridCell.Tab.1.bottom" timestamp="1607727447274">
+    <state width="1877" height="264" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1607728182741" />
+    <state width="1877" height="264" key="GridCell.Tab.1.bottom" timestamp="1607728182741">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="264" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1607727447274" />
-    <state width="1877" height="264" key="GridCell.Tab.1.center" timestamp="1607727447273">
+    <state width="1877" height="264" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1607728182741" />
+    <state width="1877" height="264" key="GridCell.Tab.1.center" timestamp="1607728182741">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="264" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1607727447273" />
-    <state width="1877" height="264" key="GridCell.Tab.1.left" timestamp="1607727447273">
+    <state width="1877" height="264" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1607728182741" />
+    <state width="1877" height="264" key="GridCell.Tab.1.left" timestamp="1607728182741">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="264" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1607727447273" />
-    <state width="1877" height="264" key="GridCell.Tab.1.right" timestamp="1607727447274">
+    <state width="1877" height="264" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1607728182741" />
+    <state width="1877" height="264" key="GridCell.Tab.1.right" timestamp="1607728182741">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="264" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1607727447274" />
+    <state width="1877" height="264" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1607728182741" />
     <state x="53" y="96" key="Maven.ArtifactSearchDialog" timestamp="1607144035962">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="53" y="96" key="Maven.ArtifactSearchDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1607144035962" />
-    <state x="461" y="165" key="SettingsEditor" timestamp="1607727507910">
+    <state x="461" y="165" key="SettingsEditor" timestamp="1607728264470">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="461" y="165" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1607727507910" />
+    <state x="461" y="165" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1607728264470" />
     <state x="616" y="240" width="672" height="677" key="run.anything.popup" timestamp="1607143875843">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
