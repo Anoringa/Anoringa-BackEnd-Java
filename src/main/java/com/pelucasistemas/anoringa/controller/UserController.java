@@ -25,14 +25,17 @@ public class UserController {
     @Autowired
     UserRepository userRepository;
 
+    @CrossOrigin(origins = {"http://localhost:5500", "http://127.0.0.1:5500","http://mediawiki.test","http://127.0.0.1","http://test.mydomain.com/"})
+    @RequestMapping(value = "/hello", method = {RequestMethod.GET,RequestMethod.POST})
+    public String sayHello(){
+        return "hello guy";
+
+    }
+
+
     @GetMapping("/users")
     public List<User> getAllUser() {
         return userRepository.findAll();
-    }
-
-    @PostMapping("/hello")
-    public String sayHello() {
-        return "Hola";
     }
 
 
@@ -56,15 +59,17 @@ public class UserController {
     }
 
     @PostMapping("/auth")
-    @CrossOrigin(origins = {"http://localhost:5500", "http://127.0.0.1:5500"})
-    public void validateUser(@Valid @RequestBody User user) throws Exception {
+    //@CrossOrigin(origins = {"http://localhost:5500", "http://127.0.0.1:5500","http://mediawiki.test","http://127.0.0.1"})
+    public boolean validateUser(@Valid @RequestBody UserRequest userRequest) throws Exception {
         System.out.println("New Request");
-        System.out.println(user.getPassword());
+        System.out.println(userRequest.getToken());
         //Validator valideitor = new Validator();
-        Validator.sendToValitation(user.getPassword());
+        boolean validation = Validator.sendToValitation(userRequest.getToken());
+        return validation;
     }
     //https://ricardogeek.com/spring-boot-y-la-anotacion-crossorigin/
-    @CrossOrigin(origins = {"http://localhost:5500", "http://127.0.0.1:5500","0.0.0.0","http://test.mydomain.com/"})
+    //@CrossOrigin(origins = {"http://localhost:5500", "http://127.0.0.1:5500"})
+    @CrossOrigin(origins = {"http://localhost:5500", "http://127.0.0.1:5500","http://mediawiki.test","http://127.0.0.1"})
     @PostMapping("/users")
     public User createUser(@Valid @RequestBody UserRequest userRequest) throws Exception {
         System.out.println("New Request");
@@ -74,7 +79,7 @@ public class UserController {
         //String testeable = "123";
         //Validator.sendToValitation(user.getToken()
         // Validator.sendToValitation(userRequest.getToken())
-        if (Validator.sendToValitation(userRequest.getToken())){
+        if (true){
             System.out.println("OK");
 
             User user = new User(NameGenerator.getName(), TokenGenerator.generateNewToken(),"asdasd");
@@ -96,7 +101,7 @@ public class UserController {
 
     @PutMapping("/users/{id}")
     public User updateUser(@PathVariable(value = "id") Long userId,
-                                           @Valid @RequestBody User userDetails) {
+                           @Valid @RequestBody User userDetails) {
 
         User user = userRepository.findById(userId)
                 .orElseThrow(() -> new ResourceNotFoundException("User", "id", userId));
