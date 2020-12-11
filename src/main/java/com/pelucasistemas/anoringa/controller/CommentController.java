@@ -75,7 +75,7 @@ public class CommentController {
         //System.out.println("New Request");
         //System.out.println(post.getToken());
         //System.out.println(Validator.sendToValitation(user.getToken()));
-        
+
         //String testeable = "123";
         //Validator.sendToValitation(user.getToken()
 
@@ -129,7 +129,7 @@ public class CommentController {
 
     @PutMapping("/comments/{id}")
     public Post updateUser(@PathVariable(value = "id") Long userId,
-                                           @Valid @RequestBody User userDetails) {
+                           @Valid @RequestBody User userDetails) {
 
         Post post = postRepository.findById(userId)
                 .orElseThrow(() -> new ResourceNotFoundException("User", "id", userId));
