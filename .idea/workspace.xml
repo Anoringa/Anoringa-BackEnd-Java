@@ -1,0 +1,252 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="578f78d9-949c-4b6c-ae0e-f7f1d29feb43" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/pelucasistemas/anoringa/aimtools/JWebToken.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/pelucasistemas/anoringa/aimtools/JsonWebTokenOld.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/pelucasistemas/anoringa/aimtools/NameGenerator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/pelucasistemas/anoringa/aimtools/TokenGenerator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/pelucasistemas/anoringa/aimtools/Validator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/pelucasistemas/anoringa/controller/CommentController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/pelucasistemas/anoringa/controller/PostController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/pelucasistemas/anoringa/controller/UserController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/pelucasistemas/anoringa/model/EntidadPersistente.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/pelucasistemas/anoringa/model/comment/Comment.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/pelucasistemas/anoringa/model/post/Post.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/pelucasistemas/anoringa/model/user/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/pelucasistemas/anoringa/repository/CommentRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/pelucasistemas/anoringa/repository/PostRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/pelucasistemas/anoringa/repository/UserRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/pelucasistemas/anoringa/requestmodels/CommentRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/pelucasistemas/anoringa/requestmodels/PostRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/pelucasistemas/anoringa/requestmodels/UserRequest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/easynotes/EasyNotesApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/pelucasistemas/anoringa/AnoringaApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/easynotes/controller/IndexController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/pelucasistemas/anoringa/controller/IndexController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/easynotes/controller/NoteController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/pelucasistemas/anoringa/controller/NoteController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/easynotes/exception/ResourceNotFoundException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/pelucasistemas/anoringa/exception/ResourceNotFoundException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/easynotes/model/Note.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/pelucasistemas/anoringa/model/Note.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/easynotes/repository/NoteRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/pelucasistemas/anoringa/repository/NoteRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/example/easynotes/EasyNotesApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/pelucasistemas/anoringa/AnoringaApplicationTests.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="C:\Users\Luca\.m2\wrapper\dists\apache-maven-3.5.0-bin\6ps54u5pnnbbpr6ds9rppcc7iv\apache-maven-3.5.0" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1lAOTCIl4srfqUFVsrEgNOcdLF6" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java/com/pelucasistemas/anoringa/model" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="restartRequiresConfirmation" value="false" />
+    <property name="settings.editor.selected.configurable" value="build.tools" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.pelucasistemas.anoringa.model.user" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\spring-boot-mysql-rest-api-tutorial\src\main\java\com\pelucasistemas\anoringa\model" />
+      <recent name="E:\spring-boot-mysql-rest-api-tutorial\src\main\java\com\pelucasistemas\anoringa" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.pelucasistemas.anoringa.aimtools" />
+      <recent name="com.pelucasistemas.anoringa.requestmodels" />
+      <recent name="com.pelucasistemas.anoringa.repository" />
+      <recent name="com.pelucasistemas.anoringa.controller" />
+      <recent name="com.pelucasistemas.anoringa.model" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\spring-boot-mysql-rest-api-tutorial\src\main\java\com\example\easynotes\model" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Spring Boot.AnoringaApplication">
+    <configuration name="AnoringaApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="easy-notes" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.pelucasistemas.anoringa.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.pelucasistemas.anoringa.AnoringaApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EasyNotesApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="easy-notes" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.easynotes.EasyNotesApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Spring Boot.AnoringaApplication" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="578f78d9-949c-4b6c-ae0e-f7f1d29feb43" name="Default Changelist" comment="" />
+      <created>1607036439371</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1607036439371</updated>
+      <workItem from="1607036440497" duration="1045000" />
+      <workItem from="1607090933514" duration="13543000" />
+      <workItem from="1607106495421" duration="20430000" />
+      <workItem from="1607721748719" duration="2623000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="login works" />
+    <option name="LAST_COMMIT_MESSAGE" value="login works" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="250" y="329" width="581" height="217" key="#Assign_Data_Sources" timestamp="1607141036105">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="250" y="329" width="581" height="217" key="#Assign_Data_Sources/0.0.1920.1040@0.0.1920.1040" timestamp="1607141036105" />
+    <state x="586" y="198" key="#Inspections" timestamp="1607108890024">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="586" y="198" key="#Inspections/0.0.1920.1040@0.0.1920.1040" timestamp="1607108890024" />
+    <state x="765" y="204" key="#com.intellij.ide.util.MemberChooser" timestamp="1607141455844">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="765" y="204" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1607141455844" />
+    <state x="726" y="389" width="470" height="268" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1607723053916">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="726" y="389" width="470" height="268" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1920.1040@0.0.1920.1040" timestamp="1607723053916" />
+    <state x="681" y="232" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1607121368488">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="681" y="232" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1607121368488" />
+    <state x="690" y="267" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1607723076640">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="690" y="267" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1607723076640" />
+    <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1607722803468">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1607722803468" />
+    <state width="1877" height="264" key="GridCell.Tab.0.bottom" timestamp="1607724875674">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="264" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1607724875674" />
+    <state width="1877" height="264" key="GridCell.Tab.0.center" timestamp="1607724875674">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="264" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1607724875674" />
+    <state width="1877" height="264" key="GridCell.Tab.0.left" timestamp="1607724875674">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="264" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1607724875674" />
+    <state width="1877" height="264" key="GridCell.Tab.0.right" timestamp="1607724875674">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="264" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1607724875674" />
+    <state width="1877" height="264" key="GridCell.Tab.1.bottom" timestamp="1607724875675">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="264" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1607724875675" />
+    <state width="1877" height="264" key="GridCell.Tab.1.center" timestamp="1607724875674">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="264" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1607724875674" />
+    <state width="1877" height="264" key="GridCell.Tab.1.left" timestamp="1607724875674">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="264" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1607724875674" />
+    <state width="1877" height="264" key="GridCell.Tab.1.right" timestamp="1607724875675">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="264" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1607724875675" />
+    <state x="53" y="96" key="Maven.ArtifactSearchDialog" timestamp="1607144035962">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="53" y="96" key="Maven.ArtifactSearchDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1607144035962" />
+    <state x="461" y="165" key="SettingsEditor" timestamp="1607143866233">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="461" y="165" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1607143866233" />
+    <state x="616" y="240" width="672" height="677" key="run.anything.popup" timestamp="1607143875843">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="616" y="240" width="672" height="677" key="run.anything.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1607143875843" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1607143908421">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1607143908421" />
+  </component>
+</project>
