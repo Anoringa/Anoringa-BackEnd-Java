@@ -22,35 +22,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="578f78d9-949c-4b6c-ae0e-f7f1d29feb43" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/pelucasistemas/anoringa/aimtools/JWebToken.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/pelucasistemas/anoringa/aimtools/JsonWebTokenOld.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/pelucasistemas/anoringa/aimtools/NameGenerator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/pelucasistemas/anoringa/aimtools/TokenGenerator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/pelucasistemas/anoringa/aimtools/Validator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/pelucasistemas/anoringa/controller/CommentController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/pelucasistemas/anoringa/controller/PostController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/pelucasistemas/anoringa/controller/UserController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/pelucasistemas/anoringa/model/EntidadPersistente.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/pelucasistemas/anoringa/model/comment/Comment.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/pelucasistemas/anoringa/model/post/Post.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/pelucasistemas/anoringa/model/user/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/pelucasistemas/anoringa/repository/CommentRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/pelucasistemas/anoringa/repository/PostRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/pelucasistemas/anoringa/repository/UserRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/pelucasistemas/anoringa/requestmodels/CommentRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/pelucasistemas/anoringa/requestmodels/PostRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/pelucasistemas/anoringa/requestmodels/UserRequest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/easynotes/EasyNotesApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/pelucasistemas/anoringa/AnoringaApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/easynotes/controller/IndexController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/pelucasistemas/anoringa/controller/IndexController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/easynotes/controller/NoteController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/pelucasistemas/anoringa/controller/NoteController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/easynotes/exception/ResourceNotFoundException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/pelucasistemas/anoringa/exception/ResourceNotFoundException.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/easynotes/model/Note.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/pelucasistemas/anoringa/model/Note.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/easynotes/repository/NoteRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/pelucasistemas/anoringa/repository/NoteRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/example/easynotes/EasyNotesApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/pelucasistemas/anoringa/AnoringaApplicationTests.java" afterDir="false" />
-    </list>
+    <list default="true" id="578f78d9-949c-4b6c-ae0e-f7f1d29feb43" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -86,8 +58,11 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java/com/pelucasistemas/anoringa/model" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.0" />
     <property name="restartRequiresConfirmation" value="false" />
     <property name="settings.editor.selected.configurable" value="build.tools" />
   </component>
@@ -149,6 +124,7 @@
       <workItem from="1607090933514" duration="13543000" />
       <workItem from="1607106495421" duration="20430000" />
       <workItem from="1607721748719" duration="2623000" />
+      <workItem from="1607725284905" duration="312000" />
     </task>
     <servers />
   </component>
