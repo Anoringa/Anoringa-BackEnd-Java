@@ -203,7 +203,7 @@ public class PostController {
             if(findedUser.getPassword().equals(postRequest.getPassword())){
                 System.out.println("OK");
 
-                Post newPost = new Post(postRequest.getTitle(),postRequest.getTitle(),postRequest.getPhoto(),findedUser);
+                Post newPost = new Post(postRequest.getTitle(),postRequest.getContent(),postRequest.getPhoto(),findedUser);
                 return postRepository.save(newPost);
             }
             else {
