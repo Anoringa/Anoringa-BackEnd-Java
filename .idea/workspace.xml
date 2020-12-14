@@ -23,8 +23,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="578f78d9-949c-4b6c-ae0e-f7f1d29feb43" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Procfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_postgresql_postgresql_42_2_8.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/application.properties.1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/application.properties.old" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/anoringa-backend-java.iml" beforeDir="false" afterPath="$PROJECT_DIR$/anoringa-backend-java.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/pelucasistemas/anoringa/AnoringaApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/pelucasistemas/anoringa/AnoringaApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,9 +70,10 @@
     <property name="RequestMappingsPanelWidth0" value="75" />
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/resources" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
@@ -74,12 +82,11 @@
     <property name="settings.editor.selected.configurable" value="build.tools" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\spring-boot-mysql-rest-api-tutorial\src\main\java\com\example\easynotes\model" />
+    </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="com.pelucasistemas.anoringa.model.user" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="E:\spring-boot-mysql-rest-api-tutorial\src\main\java\com\pelucasistemas\anoringa\model" />
-      <recent name="E:\spring-boot-mysql-rest-api-tutorial\src\main\java\com\pelucasistemas\anoringa" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.pelucasistemas.anoringa.aimtools" />
@@ -88,8 +95,10 @@
       <recent name="com.pelucasistemas.anoringa.controller" />
       <recent name="com.pelucasistemas.anoringa.model" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="E:\spring-boot-mysql-rest-api-tutorial\src\main\java\com\example\easynotes\model" />
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\anoringa\src\main\resources" />
+      <recent name="E:\spring-boot-mysql-rest-api-tutorial\src\main\java\com\pelucasistemas\anoringa\model" />
+      <recent name="E:\spring-boot-mysql-rest-api-tutorial\src\main\java\com\pelucasistemas\anoringa" />
     </key>
   </component>
   <component name="RunManager" selected="Spring Boot.AnoringaApplication">
@@ -133,7 +142,7 @@
       <workItem from="1607721748719" duration="2623000" />
       <workItem from="1607725284905" duration="7950000" />
       <workItem from="1607912272648" duration="754000" />
-      <workItem from="1607913043527" duration="1046000" />
+      <workItem from="1607913043527" duration="5320000" />
     </task>
     <servers />
   </component>
@@ -166,6 +175,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="586" y="198" key="#Inspections/0.0.1920.1040@0.0.1920.1040" timestamp="1607108890024" />
+    <state x="677" y="322" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1607925339173">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="677" y="322" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1607925339173" />
     <state x="765" y="204" key="#com.intellij.ide.util.MemberChooser" timestamp="1607141455844">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -186,38 +199,38 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1607722803468" />
-    <state width="1877" height="264" key="GridCell.Tab.0.bottom" timestamp="1607913381929">
+    <state width="1877" height="264" key="GridCell.Tab.0.bottom" timestamp="1607927271159">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="264" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1607913381929" />
-    <state width="1877" height="264" key="GridCell.Tab.0.center" timestamp="1607913381929">
+    <state width="1877" height="264" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1607927271159" />
+    <state width="1877" height="264" key="GridCell.Tab.0.center" timestamp="1607927271158">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="264" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1607913381929" />
-    <state width="1877" height="264" key="GridCell.Tab.0.left" timestamp="1607913381929">
+    <state width="1877" height="264" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1607927271158" />
+    <state width="1877" height="264" key="GridCell.Tab.0.left" timestamp="1607927271157">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="264" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1607913381929" />
-    <state width="1877" height="264" key="GridCell.Tab.0.right" timestamp="1607913381929">
+    <state width="1877" height="264" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1607927271157" />
+    <state width="1877" height="264" key="GridCell.Tab.0.right" timestamp="1607927271158">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="264" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1607913381929" />
-    <state width="1877" height="264" key="GridCell.Tab.1.bottom" timestamp="1607913381929">
+    <state width="1877" height="264" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1607927271158" />
+    <state width="1877" height="264" key="GridCell.Tab.1.bottom" timestamp="1607927271160">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="264" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1607913381929" />
-    <state width="1877" height="264" key="GridCell.Tab.1.center" timestamp="1607913381929">
+    <state width="1877" height="264" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1607927271160" />
+    <state width="1877" height="264" key="GridCell.Tab.1.center" timestamp="1607927271159">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="264" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1607913381929" />
-    <state width="1877" height="264" key="GridCell.Tab.1.left" timestamp="1607913381929">
+    <state width="1877" height="264" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1607927271159" />
+    <state width="1877" height="264" key="GridCell.Tab.1.left" timestamp="1607927271159">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="264" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1607913381929" />
-    <state width="1877" height="264" key="GridCell.Tab.1.right" timestamp="1607913381929">
+    <state width="1877" height="264" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1607927271159" />
+    <state width="1877" height="264" key="GridCell.Tab.1.right" timestamp="1607927271159">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="264" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1607913381929" />
+    <state width="1877" height="264" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1607927271159" />
     <state x="53" y="96" key="Maven.ArtifactSearchDialog" timestamp="1607144035962">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

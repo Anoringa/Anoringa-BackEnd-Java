@@ -4,10 +4,13 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.annotation.Bean;
 import org.springframework.data.jpa.repository.config.EnableJpaAuditing;
+import org.springframework.jdbc.core.namedparam.NamedParameterJdbcTemplate;
+import org.springframework.jdbc.datasource.DriverManagerDataSource;
 import org.springframework.web.cors.CorsConfiguration;
 import org.springframework.web.cors.UrlBasedCorsConfigurationSource;
 import org.springframework.web.filter.CorsFilter;
 
+import javax.sql.DataSource;
 import java.util.Arrays;
 import java.util.Collections;
 
@@ -30,4 +33,24 @@ public class AnoringaApplication {
 		source.registerCorsConfiguration("/**", config);
 		return new CorsFilter(source);
 	}
+
+	// added for postgresql
+	/*
+	@Bean
+	public DataSource dataSource(){
+		System.out.println(driverClass+" "+ url+" "+username+" "+password);
+		DriverManagerDataSource source = new DriverManagerDataSource();
+		source.setDriverClassName(driverClass);
+		source.setUrl(url);
+		source.setUsername(username);
+		source.setPassword(password);
+		return source;
+	}
+
+	@Bean
+	public NamedParameterJdbcTemplate namedParameterJdbcTemplate(){
+		NamedParameterJdbcTemplate namedParameterJdbcTemplate = new NamedParameterJdbcTemplate(this.dataSource());
+		return namedParameterJdbcTemplate;
+	}
+	 */
 }
